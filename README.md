@@ -1,4 +1,4 @@
-# comp4320
+# COMP.4320
 ## Files and folders description
 `preprocess.m` - Uses `remove_background.m` and `image_to_vector.m` to preprocess the images in `data/` and generate a matrix of features and exemplars, which are saved as `image_vectors.mat` (see "Notes to implementors", below). Also takes the first 200 rows of `image_vectors.mat`, and saves them as `image_vectors_small.mat`, which is useful for speedy processing while debugging the project.
 
